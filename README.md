@@ -26,7 +26,7 @@ Footer Section:
 * Should wrap, be centerd, correct colors / size.
 * Hover effect should underline. But not on copyright.
 
-Page should have correct title and favicon.
+Page should have correct title and favicon.  The UI should be responsive.
 
 ## Scaffold
 
@@ -83,6 +83,6 @@ At the top of your css file add a [CSS Reset](https://cssreset.com/scripts/eric-
 
 When you begin to style it's best to take a mobile first approach. Set twitters home screen to be as small as possible and set your screen to match (if you're truly doing mobile first you should set the view in your inspect to be the smallest screen possible, but for now lets just do the smallest possible size on desktop) Then begin styling.
 
-### Bonus
+### Make the UI responsive
 
 After you've completed your replica at the smaller screen, slowly expand Twitter's screen and identify the breakpoints. These are the points where things move, appear / disappear, or change in size. Style for each breakpoint at the bottom of your css file to have a fully responsive site.
