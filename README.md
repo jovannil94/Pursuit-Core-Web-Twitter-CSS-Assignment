@@ -28,6 +28,10 @@ Footer Section:
 
 Page should have correct title and favicon.  The UI should be responsive.
 
+## Rubric
+
+![cssAssignmentRubric](./images/cssAssignmentRubric.png)
+
 ## Scaffold
 
 ### Create the HTML skeleton
