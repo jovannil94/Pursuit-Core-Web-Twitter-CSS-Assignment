@@ -1,0 +1,191 @@
+body{
+    margin: 0%;
+}
+.row {
+    display: flex;
+  }
+  /* split into two */
+  .column {
+    flex: 50%;
+    height: 95vh;
+  }
+  .container {
+    /* width: 100vw; */
+    height: 100vh;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  }
+
+  /* left side */
+#blue {
+    display: flex;
+    /* background-color: #1DA1F2; */
+    background-color: transparent;
+    border-bottom: lightgray;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+/* list on left side */
+#list {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    border-bottom: lightgray;
+    font-size: 18px;
+    font-weight: bold;
+    gap:10px;
+    list-style-type: none;
+    align-items: center;
+    margin-left: 120px;
+    line-height: 24px;
+    font-family: sans-serif;
+}
+/* right side */
+#white{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    z-index: 5;
+    background-color: white;
+    border-bottom: 1px solid lightgray;
+}
+/* twitter bird */
+#smallbird{
+    height: 35%;
+    width: 35%;
+    margin-left: -45px;
+}
+/* username and password */
+#loginitems{
+    margin-top: -318px;
+    position: absolute;
+}
+.inputs:focus{
+    outline: .5px solid #81C1D9;
+    /* border-color: #81C1D9;
+    box-shadow: 0 0 1px #81C1D9; */
+    border-radius: 3px;
+}
+/* username and password */
+#loginitems input {
+    font-size: 14px;
+    margin-right: 5px;
+    border: 1px solid #E6ECF0;
+    border-radius: 3px;
+    padding-left: 12px ;
+}
+.inputs {
+    height: 5vh;
+    width: 14vw;
+}
+
+/* forgot password? */
+#loginitems #paragraph {
+    display: flex;
+    color: #AAB8C2;
+    justify-content: flex-end;
+    margin-right: 180px;
+    margin-top: -0.1px;
+    font-size: 14px;
+    cursor: pointer;
+    font-family: sans-serif;
+}
+/* log in button */
+.login{
+    border-radius: 25px;
+    background-color: #fff;
+    height: 40px;
+    width: 70px;
+    height: 50px;
+}
+.footer {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    color: #AAB8C2;
+    height: 5vh;
+    justify-content: center;
+    width: 100vw;
+    background-color: white;
+}
+/* footer items */
+#footerUl{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    font-size: 12px;
+    width: 80%;
+    color: #aab8c2;
+    font-family: sans-serif;
+}
+/* footer hover */
+.footerlist:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+button{
+    color: #1da1f2;
+    border: 1px solid #1da1f2;
+    font-weight: bold;
+}
+.words{
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: center; */
+    flex-direction: column;
+    width: 24vw;
+    font-family: sans-serif;
+}
+/* See the world! */
+#see{
+    font-size: 25px;
+    margin-top: -10px;
+    line-height: 32px;
+    font-family: sans-serif;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+/* join twitter */
+#join{
+    font-size: 17px;
+    margin-bottom: -10px;
+}
+/* buttons in the white section, middle */
+.loginbuttons{
+    width: 22vw;
+    height: 35px;
+    border-radius: 25px;
+    font-size: 14px;
+}
+#sign{
+    background-color: #1DA1F2;
+    color: white;
+    margin-bottom: 10px;
+}
+#sign:hover{
+    background: #0F6DBF;
+}
+/* hover effect for all */
+.hoverEfect:hover{
+    background: lightgray;
+    cursor: pointer;
+}
+/* background bird */
+.twitterIcon-bird{
+    background-color: #1DA1F2;
+    z-index: -1;
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+}
+
+/* icon manipulation*/
+.icons {
+    filter: invert(100%);
+    height: 8%;
+    width: 8%;
+    display: flex;
+    margin-top: 20px;
+    margin-right: 15px;
+}
